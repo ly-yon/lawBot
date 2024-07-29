@@ -1,4 +1,4 @@
-# PRE-Requisutes
+# PRE-Requisites
 - Ollama installed and can be accessed by http://localhost:11434
 - python v3.12.1
 ## Start with creating virtual environment for python runtime
