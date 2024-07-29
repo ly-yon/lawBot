@@ -1,0 +1,5 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+sentence_transformers
+requests
+torch==2.2.2+cpu
+numpy==1.26.4
