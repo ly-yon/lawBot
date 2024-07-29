@@ -9,8 +9,6 @@ Before Running the program we should configure Ollama\
 Not Installed? Install from [ollama](https://ollama.com/download)\
 for Linux\WSL :-\
 Installation:  ```curl -fsSL https://ollama.com/install.sh | sh```\
-Note: Make sure you are in the current path where [makefile](https://github.com/ly-yon/lawBot/blob/main/makefile) is\
-e.g the project saved in D:lawBot\makefile then the correct path in WSL: ```root@localhost:/mnt/d/```\
-Install Required Model: ```ollama create llama-law -f makefile```
+Install Required Model: ```ollama pull azar30/law```
 ## Finally run the python program
 ```python .\index.py```
