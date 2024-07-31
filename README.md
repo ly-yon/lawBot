@@ -48,4 +48,6 @@ ollama run azar30/law
 In a browser window visit http://localhost:11434 you should see that ollama is successfully running on the correct port
 
 ## Finally run the python program in a new terminal window
-```python .\index.py```
+```
+python .\index.py
+```
