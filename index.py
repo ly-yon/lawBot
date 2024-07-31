@@ -895,7 +895,7 @@ def get_response(prompt):
     results = test_similarity(embed,response)
     # print("Document Provided:- "+results.__str__())
     gen=f"{results}\n {prompt}"
-    res = generate_response_from_chunks(gen,"generate","llama3-law")
+    res = generate_response_from_chunks(gen,"generate","azar30/law")
     # Placeholder function to generate a response
     # Replace with your actual response generation logic
     return res['response']
